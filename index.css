@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#DCDCDC;
+}
+
+.rows{
+    display: flex;
+}
+.card{
+    background-color: white;
+    width: 18%;
+    margin: 30px;
+    padding: 25px;
+}
+.product{
+    margin: auto;
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+.reviews{
+    font-weight: bold;
+}
+.rate{
+    float: right;
+    padding: 5px;
+    background-color: lightgrey;
+    border: none;
+}
+#heading{
+    margin: 30px;
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+.fas{
+    padding-left: 3px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
