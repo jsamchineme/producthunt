@@ -1,1 +1,1 @@
-// the main javascript file
+console.log('Hello World!');
