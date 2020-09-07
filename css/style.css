@@ -68,9 +68,6 @@ body {
   background-color: lightgray;
 }
 
-main {
-  margin-top: 25%; 
-}
 .consumerFeedback {
   background-color: white;
   margin: auto;
@@ -125,3 +122,5 @@ span{
   padding-right: 0.2rem;
 }
 /* end of single product styles */
+
+
