@@ -25,6 +25,11 @@ main {
   margin-right: auto;
 } 
 
+a {
+  color: unset;
+  text-decoration: none;
+}
+
 .searchBar {
   margin: auto;
   color: grey;
@@ -41,7 +46,8 @@ input {
 }
 .button {
   margin: auto;
-  margin-right: 2rem;
+  padding: 5px 10px;
+  font-size: 14px;
 } 
 
 .login {
@@ -49,7 +55,6 @@ input {
   background-color: darkorange;
   border: 0;
   border-radius: 10%
-  
 } 
 .signUp {
   border-radius: 10%;
@@ -75,6 +80,16 @@ input {
 /* single product styles */
 body {
   background-color: lightgray;
+}
+
+.product-banner {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.product-banner-image {
+  text-align: center;
 }
 
 .consumerFeedback {
@@ -138,7 +153,7 @@ span{
 }
 .card{
   background-color: white;
-  width: 18%;
+  width: 25%;
   margin: 30px;
   padding: 25px;
 }
