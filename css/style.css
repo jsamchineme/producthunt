@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Montserrat, sans-serif;
   box-sizing: border-box;
 } 
 body {
@@ -17,7 +18,6 @@ header {
 } 
 main {
   background-color: lightgrey;
-  height: 40rem;
   width: 80%;
   padding: 0px 20px;
   margin-top: 20px;
@@ -131,6 +131,47 @@ span{
 }
 /* end of single product styles */
 
+/* begining of the product list */
+
+.rows{
+  display: flex;
+}
+.card{
+  background-color: white;
+  width: 18%;
+  margin: 30px;
+  padding: 25px;
+}
+.product{
+  margin: auto;
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+}
+.reviews{
+  font-weight: bold;
+}
+.rate{
+  float: right;
+  padding: 5px;
+  background-color: lightgrey;
+  border: none;
+}
+#heading{
+  margin: 30px;
+  font-size: 20px;
+  margin-bottom: -20px;
+}
+.fas{
+  padding-left: 3px;
+}
+#container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* end of product list */
+
 /* specific product start */
 .card{
   background-color: white;
@@ -140,15 +181,15 @@ span{
 
 .product{
   width: 100%;
-  height: 80%;
-
+  height: 200px;
+  object-fit: cover;
 }
 .description{
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 500;
 }
 .fa-caret-up{
-  color: white;
+  color: black;
 }
 #upvote{
   background-color: #ff4c00;
