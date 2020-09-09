@@ -18,7 +18,6 @@ header {
 } 
 main {
   background-color: lightgrey;
-  height: 40rem;
   width: 80%;
   padding: 0px 20px;
   margin-top: 20px;
@@ -182,11 +181,11 @@ span{
 
 .product{
   width: 100%;
-  height: 80%;
-
+  height: 200px;
+  object-fit: cover;
 }
 .description{
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 500;
 }
 .fa-caret-up{
