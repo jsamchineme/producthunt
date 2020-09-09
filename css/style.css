@@ -68,9 +68,7 @@ body {
   background-color: lightgray;
 }
 
-main {
-  margin-top: 25%; 
-}
+
 .consumerFeedback {
   background-color: white;
   margin: auto;
@@ -138,7 +136,9 @@ span{
 	background: #e2e2e2;
 }
 .form-control, .btn {        
-	border-radius: 3px;
+  border-radius: 3px;
+  outline: none;
+  padding: 5px 10px;
 }
 .signup-form {
 	width: 500px;
